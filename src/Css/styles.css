@@ -879,12 +879,15 @@ footer {
 }
 
 /* =====================
-   TRANSFER SECTION (HIDDEN/SHOW)
+   HIDDEN / POPUP
 ===================== */
 .hidden {
   display: none !important;
 }
 
+/* =====================
+   TRANSFER SECTION POPUP
+===================== */
 .transfer-section {
   position: fixed;
   top: 50%;
@@ -908,6 +911,41 @@ footer {
   margin-bottom: 2rem;
 }
 
+/* =====================
+   RECHARGE SECTION POPUP
+===================== */
+.recharge-section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 450px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  z-index: 1000;
+  padding: 2rem;
+}
+
+.recharge-section .section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.recharge-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* =====================
+   SHARED POPUP STYLES
+===================== */
 .btn-close {
   background: none;
   border: none;

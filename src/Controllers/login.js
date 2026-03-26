@@ -1,13 +1,11 @@
-import finduserbymail from "../Models/database";
-//Recuperation de bouton
+import { finduserbymail } from "../Models/database.js";
+
 const submitBtn = document.getElementById("submitbtn");
 
 submitBtn.addEventListener("click",handleConnecte);
 function handleConnecte(){
-    //recuperation du champs
     const emailInput = document.getElementById("mail");
     const passwordInput = document.getElementById("password");
-    //les valeurs de champs
     const mail=emailInput.value;
     const pwd=passwordInput.value;
     submitBtn.textContent="Checking..."
