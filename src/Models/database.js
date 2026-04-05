@@ -19,7 +19,7 @@ const database={
               {id:"3", type:"credit",amount:250,date:"12-08-25", from:"Ahmed" , to:"124478",etat:"succes"},
         ],
         beneficiaries: [
-          { id: "1", name: "Ali", account: "124847" },
+          { id: "1", name: "Ahmed", account: "124847" },
           { id: "2", name: "Sara", account: "213456" }
         ]
        }
@@ -42,7 +42,7 @@ const database={
           { id: "3", type: "credit", amount: 250, date: "2025-08-12", from: "Ali", to: "224478" ,etat:"succes"}
     ],
     beneficiaries: [
-          { id: "1", name: "Ali", account: "124847" },
+          { id: "1", name: "Fadoua", account: "124847" },
           { id: "2", name: "Sara", account: "213456" }
     ]
 }
